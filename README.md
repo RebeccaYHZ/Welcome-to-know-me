@@ -2,11 +2,18 @@
 
 Author:Yahui Zhang
 
-Class Link: 
+Class Link: https://johnguerra.co/classes/webDevelopment_fall_2023/
 
 Project Objective:
 
 This is my personal website project created as part of the CS5610 course. The website serves as an online portfolio and a place for me to showcase my work, share my interests, and provide a bit of information about myself. It includes information about my educational background, skills, projects, and contact details.
+
+Screenshot:
+![rebeccayhz github io_Welcome-to-know-me_index html](https://github.com/RebeccaYHZ/Welcome-to-know-me/assets/144859286/c90e927b-b5a6-4997-9da2-beeed84447c7)
+![rebeccayhz github io_Welcome-to-know-me_about html](https://github.com/RebeccaYHZ/Welcome-to-know-me/assets/144859286/2e84d17a-e3bb-4071-8167-c432138e2fd9)
+![rebeccayhz github io_Welcome-to-know-me_contact html](https://github.com/RebeccaYHZ/Welcome-to-know-me/assets/144859286/9f846156-d2c9-42a8-96b5-d505d1cd4023)
+
+
 
 Instructions to Build:
 
