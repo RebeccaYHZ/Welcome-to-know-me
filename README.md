@@ -2,7 +2,7 @@
 
 Author:Yahui Zhang
 
-Class Link: 
+Class Link: https://johnguerra.co/classes/webDevelopment_fall_2023/
 
 Project Objective:
 
