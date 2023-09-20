@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Yahui Zhang's website</title>
+
+    <!-- Bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- logo, web name and the nav -->
+    <header class="header">
+      <div class="navigation-wrap bg-light start-header start-style">
+        <div class="container-fluid">
+          <div class="row">
+            <nav class="navbar navbar-expand-md navbar-light">
+              <a class="navbar-brand col-md-7" href="index.html">
+                <img src="source/img-4.png" alt="logo-img" />
+                <h1>Yahui Zhang</h1>
+              </a>
+
+              <button
+                class="btn btn-outline-secondary navbar-toggler ml-auto"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-expanded="false"
+                aria-controls="navbarSupportedContent"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div
+                class="collapse navbar-collapse col-md-5"
+                id="navbarSupportedContent"
+              >
+                <ul class="navbar-nav ml-auto py-4 py-md-0">
+                  <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                    <a class="nav-link" href="#work">Work</a>
+                  </li>
+                  <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                    <a
+                      class="nav-link"
+                      href="source/Yahui_Zhang_Resume.pdf"
+                      target="_blank"
+                      >Resume</a
+                    >
+                  </li>
+                  <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <hr class="solid-line" />
+
+    <main class="main">
+      <!-- personal introduction -->
+      <section class="intro">
+        <div class="container">
+          <img
+            src="source/IMG_6710.GIF"
+            alt="head shot GIF"
+            loading="eager"
+            class="headshot img-fluid"
+          />
+          <div class="intro-info">
+            <h2 class="fs-3">
+              Hi! I'm
+              <span class="intro-name text-uppercase">Yahui Zhang</span>
+              a graduate student majored in Computer Science based in Bay Area.
+            </h2>
+
+            <p>
+              Now study in
+              <a
+                href="https://www.khoury.northeastern.edu/"
+                target="_blank"
+                class="intro-college"
+              >
+                Northeastern University Khoury College
+              </a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- projects -->
+      <section id="work" class="projects">
+        <h2>💡Projects I Worked</h2>
+        <div class="container">
+          <div class="card-holder row justify-content-center">
+            <!-- Project1: Petdomus -->
+            <div class="card col-md-5 mb-5">
+              <a
+                href="https://www.canva.com/design/DAFgVGBE6X0/7GVr6plYUfWpprDs37-SbA/view?website#2:empty-user-name-nonexistent-user-name-wrong-user-name-wrong-password"
+                target="_blank"
+                class="work-link"
+              >
+                <img
+                  src="source/img-2.jpg"
+                  class="card-img-top"
+                  alt="project1_Petdomus"
+                />
+                <div class="card-body">
+                  <span class="badge text-bg-primary">Python Project</span>
+                  <h5 class="card-title">Petdomus</h5>
+                  <p class="card-text">
+                    A pet adoption website that helps shelter staff manage pet
+                    information and assists users in browsing and finding their
+                    desired pets.
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <!-- Project2: Eating Disorder Handbook -->
+            <div class="card col-md-5 mb-3">
+              <a
+                href="https://www.canva.com/design/DAFT8B9H3QQ/5oMWsURAxyqigtI-6IZYUw/view?website#2:eating-disorder-web-deisgn"
+                target="_blank"
+                class="work-link"
+              >
+                <img
+                  src="source/img-3.jpg"
+                  class="card-img-top"
+                  alt="project2_Eating Disorder Handbook"
+                />
+                <div class="card-body">
+                  <span class="badge text-bg-warning">Web Project</span>
+                  <h5 class="card-title">Eating Disorder Handbook</h5>
+                  <p class="card-text">
+                    A website educating people on different eating disorders, in
+                    order for them to learn and help them to understand if they
+                    are struggling.
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <!-- Project3: ForUs -->
+            <div class="card col-md-5 mb-3">
+              <a
+                href="https://www.canva.com/design/DAFT7-OjLUE/IUFwr37J-J6kWIw5OhJL_A/view?website#2"
+                target="_blank"
+                class="work-link"
+              >
+                <img
+                  src="source/img-6.jpg"
+                  class="card-img-top"
+                  alt="project3_ForUs"
+                />
+                <div class="card-body">
+                  <span class="badge text-bg-primary">Python Project</span>
+                  <h5 class="card-title">ForUs</h5>
+                  <p class="card-text">
+                    A small app for couples or friends to use together. Two
+                    people can create an account and set password and nicknames.
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <!-- Project4: FormLabs -->
+            <div class="card col-md-5 mb-3">
+              <a
+                href="https://www.canva.com/design/DAFu8Vhby-Y/Scmtaa6s3399Uup10VIIhA/view?website#2"
+                target="_blank"
+                class="work-link"
+              >
+                <img
+                  src="source/img-7.jpg"
+                  class="card-img-top"
+                  alt="project4_FormLabs"
+                />
+                <div class="card-body">
+                  <span class="badge text-bg-danger">Designing</span>
+                  <h5 class="card-title">FormLabs</h5>
+                  <p class="card-text">
+                    Creative designing highlights the quality work experience at
+                    Formlabs, help attract target people who aim to work with a
+                    good environment.
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="solid-line" />
+
+      <!-- footer -->
+      <section class="footer">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center"
+        >
+          <div class="footer-text text-left">
+            <h2>Nice to meet you here!</h2>
+            <p>Copyright © 2023 Rebecca Yahui Zhang</p>
+          </div>
+          <div class="contact text-right">
+            <ul class="contect-info list-inline">
+              <li class="list-inline-item">
+                <a
+                  href="https://www.linkedin.com/in/yahui-zhang-rebecca/"
+                  target="_blank"
+                  class="contact-item"
+                  >LinkedIn</a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href="https://www.instagram.com/rebecca_zyh/"
+                  target="_blank"
+                  class="contact-item"
+                  >Instagram</a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href="https://twitter.com/rebecca49212103"
+                  target="_blank"
+                  class="contact-item"
+                  >Twitter</a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a href="contact.html" class="contact-item">Email</a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </section>
+    </main>
+
+    <!-- Javascript link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

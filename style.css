@@ -1,0 +1,304 @@
+/* general style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafaf9;
+  color: #373737;
+  font-family: "Roboto", sans-serif;
+  padding: 40px;
+}
+
+.header {
+  padding-bottom: 5px;
+}
+
+.header .container {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* logo and name area */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.navbar img {
+  width: 68px;
+  height: auto;
+}
+
+.navbar h1 {
+  font-size: 42px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  color: #373737;
+  line-height: 1;
+  margin-top: 6px;
+}
+
+/* nav bar */
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar-collapse {
+  padding-right: 14px;
+  justify-content: end;
+}
+
+.navbar-nav .nav-link {
+  margin-left: 20px;
+  padding: 10px 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #373737;
+  display: inline-block;
+  padding: 5px 10px;
+  transition: transform 0.1s, border 0.1s; /* 添加过渡效果 */
+  border-bottom: 0 solid transparent;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #373737;
+}
+
+/* horizontal line */
+.solid-line {
+  border: none;
+  height: 1.5px;
+  background-color: #373737;
+}
+
+/* introduction area */
+.intro-info h2 {
+  font-weight: 200;
+}
+
+.intro-name {
+  text-decoration: underline;
+}
+
+.intro-college {
+  text-decoration: none;
+  color: #373737;
+  display: inline-block;
+  padding: 10px 0;
+  transition: transform 0.3s, border 0.3s;
+  border: 0 solid transparent;
+  border-radius: 5px;
+}
+
+.intro-college:hover {
+  transform: translateX(10px);
+  border: 2px solid #373737;
+  padding: 10px 10px;
+}
+
+@media (min-width: 768px) {
+  .intro {
+    padding: 70px 6%;
+  }
+
+  .intro .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .intro .headshot {
+    width: 200px;
+    height: 200px;
+  }
+
+  .intro-info {
+    margin: 12px 48px;
+    align-self: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .headshot {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+
+  .intro .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* projects general */
+
+.projects {
+  padding-bottom: 64px;
+}
+
+.projects h2 {
+  padding-bottom: 48px;
+  text-align: center;
+}
+
+/* project cards */
+
+.card-holder {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.card {
+  height: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: none;
+
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.work-link {
+  text-decoration: none;
+  color: #373737;
+}
+
+.card-body {
+  padding-top: 16px;
+}
+
+.badge {
+  margin-bottom: 16px;
+}
+
+/* footer general*/
+.footer {
+  padding-top: 24px;
+}
+
+/* footer contact */
+.footer-text p {
+  font-size: small;
+  color: #78716c;
+}
+
+.contact-item {
+  text-decoration: none;
+  color: #373737;
+  display: inline-block;
+  padding: 10px 10px;
+  transition: transform 0.3s, border 0.3s;
+  border: 0 solid transparent;
+  border-radius: 5px;
+}
+
+.contact-item:hover {
+  border: 2px solid #373737;
+}
+
+/* contact page  */
+.contact-form {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  padding: 40px 12px;
+}
+
+.contact-form h2 {
+  padding-bottom: 40px;
+}
+
+#recipient {
+  color: #d6d3d1;
+}
+
+.contact-form .submit-btn {
+  margin-top: 20px;
+}
+
+/* About me page */
+.about-title {
+  margin-top: 50px;
+}
+
+.about-title p {
+  color: #a8a29e;
+}
+
+.about-title h2 {
+  font-size: 300%;
+}
+
+.div-photo {
+  width: 77%;
+  margin-right: 0;
+  margin-top: 48px;
+}
+
+.pic-3 {
+  margin-top: 24px;
+}
+
+.exhibition-text p {
+  line-height: 3;
+}
+
+.exhibition-text {
+  width: 75%;
+  justify-content: flex-end;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  margin-left: auto;
+  display: block;
+}
+
+.div-block-2 {
+  margin-top: 50px;
+  margin-bottom: 64px;
+}
+
+.div-block-2 h4 {
+  margin-bottom: 32px;
+}
+
+.flex-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(80px, auto);
+}
+
+.exhibition-text-2 {
+  width: 75%;
+  justify-content: flex-end;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  margin-left: auto;
+  display: block;
+}
+
+.experience-title {
+  text-decoration: underline;
+}
