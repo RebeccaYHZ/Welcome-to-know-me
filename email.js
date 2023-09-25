@@ -1,3 +1,5 @@
+import emailjs from 'emailjs-com';
+
 emailjs.init('AYj7b-ap5HyXjHaGL');
 
 function sendEmail(event) {
