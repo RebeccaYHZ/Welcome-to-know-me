@@ -11,7 +11,8 @@ This is my personal website project created as part of the CS5610 course. The we
 Screenshot:
 ![rebeccayhz github io_Welcome-to-know-me_index html](https://github.com/RebeccaYHZ/Welcome-to-know-me/assets/144859286/c90e927b-b5a6-4997-9da2-beeed84447c7)
 ![rebeccayhz github io_Welcome-to-know-me_about html](https://github.com/RebeccaYHZ/Welcome-to-know-me/assets/144859286/2e84d17a-e3bb-4071-8167-c432138e2fd9)
-![rebeccayhz github io_Welcome-to-know-me_contact html](https://github.com/RebeccaYHZ/Welcome-to-know-me/assets/144859286/9f846156-d2c9-42a8-96b5-d505d1cd4023)
+![rebeccayhz github io_Welcome-to-know-me_contact html](https://github.com/RebeccaYHZ/Welcome-to-know-me/assets/144859286/1d1ab902-5d7d-4a60-9f45-d216124fe23d)
+
 
 
 
